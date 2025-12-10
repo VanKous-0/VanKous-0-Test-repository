@@ -1,0 +1,25 @@
+@"
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.tlog
+*.db
+.vs/
+*.VC.db
+*.VC.opendb
+*.ipch
+*.log
+*.ilk
+*.exe
+__pycache__/
+*.pyc
+.venv/
+env/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+"@ | Out-File -Encoding UTF8 .gitignore
